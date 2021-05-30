@@ -5,7 +5,9 @@
 *  __[`Builder`](#Builder)__
 *  __[`Factory Method`](#FactoryMethod)__
 *  __[`Singleton`](#Singleton)__
+*  __[`Bridge`](#Bridge)__
 *  [`Prototype`](#ProtoType)
+
 
 ## Structural
 *  __[`Adapter`](#Adapter)__
@@ -52,8 +54,8 @@ Some Builder examples are : StringBuilder and GsonBuilder.
 
 __Use the Builder when....__
 * The algorithm of creating parts is independent of the parts themselves.
-*  The object to be assembled can have different representations.
-*  You need control over construction process. 
+* The object to be assembled can have different representations.
+* You need control over construction process. 
 
 
 ![Builder](./builder.png)
@@ -128,6 +130,21 @@ public sealed class Singleton
  }
 ```
 
+### Bridge 
+---
+Decouples an abstraction from its implementation, enabling them to vary independently. _You can create an  **interface** to achieve this goal._
+
+> In its simplest form an abstract class is a class that depends on abstract methods. The simplest form is an abstract hierarchy where the concrete methods of that abstact class depend on other abstract methods. This is best use case for the Bridge pattern.
+
+__Use Bridge Method when....__
+* You can identify that there are operations that do not always need to be implemented the same way.
+* You want to completely hide the implementation from clients of the concrete parts of the abstraction. 
+* You want to __Avoid binding the implementation / concrete class to an abstraction.__
+* You want to combine different parts of a system at runtime. 
+
+![Bridge](./bridge.png)
+
+
 ### Prototype
 ---
 https://www.dineshonjava.com/prototype-design-pattern/
@@ -141,3 +158,5 @@ __Key points on ProtoType ....__
 ---
 Class Adapter and Object Adapter --> A very simplest ones and well understood so we'll have details later till then you go to https://refactoring.guru/design-patterns/adapter
 
+### Composite
+---
