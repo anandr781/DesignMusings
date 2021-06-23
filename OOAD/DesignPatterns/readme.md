@@ -1,5 +1,5 @@
 # Design Patterns
-> NOTE : Open the pacman digram using this [link] (!https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fanandr781%2FDesignMusings%2Fmain%2FOOAD%2FDesignPatterns%2Fpacman.drawio)
+> NOTE : Open the pacman digram using this ![link] (https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fanandr781%2FDesignMusings%2Fmain%2FOOAD%2FDesignPatterns%2Fpacman.drawio)
 
 ## Creational 
 * __[`Abstract Factory`](#AbstractFactory)__
